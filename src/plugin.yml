@@ -1,0 +1,36 @@
+main: com.closingthebrackets.Nonessentials.Main
+name: Nonessentials
+version: 1.2.1
+author: JayUplink
+description: Various event based commands & utilities
+api-version: 1.16
+commands:
+   ne:
+      description: Perform admin tasks with nonessentials
+   event:
+      usage: /event <start | stop> <Event name>
+      description: Begins an event
+   tpevent:
+      usage: /tpevent <Event name> [Player]
+      description: Teleports all players with permission event.<eventname> excluding operators.
+   kitevent:
+      usage: /kitevent <Event name> <kit name>
+      description: Gives all players a kit with permission event.<eventname> excluding operators.
+   floorislava:
+      description: Start the floor is lava minigame.
+   countdown:
+      usage: /countdown <seconds>
+      description: count down from 3
+permissions:
+   nonessentials.events:
+      description: Use /events
+   nonessentials.countdown:
+      description: Use /countdown
+   nonessentials.admin:
+      description: Use /ne commmands and get admin messages
+   nonessentials.tpevent:
+      description: Allows player to use /tpevent - /tpevent <Event name> [Player]
+   nonessentials.kitevent:
+      description: Allows player to use /kitevent - /kitevent <Event name> <kit name>
+   nonessentials.minigame.floorislava:
+      description: Allows starting the "Floor is lava" minigame
