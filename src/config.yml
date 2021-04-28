@@ -1,0 +1,27 @@
+# Debug mode (no touchy)
+debug: false
+
+admins:
+
+# Enable commands here
+enabledcommands:
+   floorislava: false
+   countdown: true
+   tpevent: true
+   kitevent: true
+   events: true
+   
+# Minigame settings
+floorislavaminigame:
+   startbroadcastmessage: "&6&lThe floor is lava!"
+
+# Events
+events:
+   prepare:
+      adv-to-sur: false
+      countdown: -1
+      worldborder: 15
+   meteor:
+      adv-to-sur: true
+      countdown: 10
+      worldborder: 450
