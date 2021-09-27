@@ -1,2 +1,2 @@
 # Nonessentials
-A Spigot plugin with various utilities
+A Minecraft Plugin for Spigot with various utilities
